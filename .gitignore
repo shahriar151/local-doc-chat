@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Models (too large for Git - users download via setup.py)
+models/
+*.gguf
+*.bin
+
+# Database (user-generated)
+chroma_db/
+
+# User Documents
+watched_folder/
+*.pdf
+*.docx
+*.xlsx
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
